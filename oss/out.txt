@@ -1,0 +1,10 @@
+[ 2076.566547] Code: 8b 3c 24 ba 13 00 00 00 89 c6 e8 fb 36 ff ff 85 c0 75 bb 48 8b 04 24 48 8d 15 cc 67 00 00 be 10 00 00 00 48 8d 3d 4a 55 00 00 <48> 8b 48 08 31 c0 e8 a5 3b ff ff eb 97 e8 fe 37 ff ff 66 66 2e 0f
+[ 2103.214440] loop0: detected capacity change from 0 to 8
+[ 2128.142083] gsd-power[5773]: segfault at 8 ip 00007f4b1795eb40 sp 00007ffe21bf8580 error 4 in libupower-glib.so.3.1.0[16b40,7f4b17951000+13000] likely on CPU 1 (core 1, socket 0)
+[ 2128.142105] Code: 8b 3c 24 ba 13 00 00 00 89 c6 e8 fb 36 ff ff 85 c0 75 bb 48 8b 04 24 48 8d 15 cc 67 00 00 be 10 00 00 00 48 8d 3d 4a 55 00 00 <48> 8b 48 08 31 c0 e8 a5 3b ff ff eb 97 e8 fe 37 ff ff 66 66 2e 0f
+[ 2179.977819] gsd-power[5834]: segfault at 8 ip 00007f2836aafb40 sp 00007ffd3fdd0bb0 error 4 in libupower-glib.so.3.1.0[16b40,7f2836aa2000+13000] likely on CPU 1 (core 1, socket 0)
+[ 2179.977841] Code: 8b 3c 24 ba 13 00 00 00 89 c6 e8 fb 36 ff ff 85 c0 75 bb 48 8b 04 24 48 8d 15 cc 67 00 00 be 10 00 00 00 48 8d 3d 4a 55 00 00 <48> 8b 48 08 31 c0 e8 a5 3b ff ff eb 97 e8 fe 37 ff ff 66 66 2e 0f
+[ 2187.364787] ---Hello---
+[ 2198.904652] ---Goodbye---
+[ 2231.363805] gsd-power[5895]: segfault at 8 ip 00007f5c58fddb40 sp 00007fff817e61e0 error 4 in libupower-glib.so.3.1.0[16b40,7f5c58fd0000+13000] likely on CPU 2 (core 2, socket 0)
+[ 2231.363838] Code: 8b 3c 24 ba 13 00 00 00 89 c6 e8 fb 36 ff ff 85 c0 75 bb 48 8b 04 24 48 8d 15 cc 67 00 00 be 10 00 00 00 48 8d 3d 4a 55 00 00 <48> 8b 48 08 31 c0 e8 a5 3b ff ff eb 97 e8 fe 37 ff ff 66 66 2e 0f
